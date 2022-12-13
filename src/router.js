@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
+// import Home from './views/Home.vue'
+
+// Remisiones
+import Remisiones from './views/Remisiones'
+
+// Notificaciones
+import Notificaciones from './views/Notificaciones'
 
 Vue.use(Router)
 
@@ -9,7 +15,12 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: Remisiones
+    },
+    {
+      path: '/notificaciones',
+      name: 'notificaciones',
+      component: Notificaciones
     },
     {
       path: '/about',
