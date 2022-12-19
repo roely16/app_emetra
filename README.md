@@ -1,4 +1,6 @@
-# app_emetra
+# App EMETRA
+
+Aplicación que se comenzó a desarrollar como apoyo a EMETRA, relacionada con el registro de multas. 
 
 ## Project setup
 ```
